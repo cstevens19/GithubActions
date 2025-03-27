@@ -116,7 +116,7 @@ public class Power
     {
         Assert.AreEqual(2, Program.Power("2", "1"));
         Assert.AreEqual(64, Program.Power("8", "2"));
-        Assert.AreEqual(32, Program.Power("2", "6"));
+        Assert.AreEqual(64, Program.Power("2", "6"));
     }
 
     [TestMethod]
